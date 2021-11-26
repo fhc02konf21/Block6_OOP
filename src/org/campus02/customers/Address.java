@@ -1,5 +1,13 @@
 package org.campus02.customers;
 
+/*
+    Verwendung bei
+     - Customer
+     - Lieferungen
+     - Adresse von Geschäftslokal
+     - Adressen sammeln für Marketing
+ */
+
 public class Address {
     /* - (Minus) aus dem Klassendiagramm definiert den access modifier private */
     /* + (Plus) aus dem Klassendiagramm definiert den access modifier public */
