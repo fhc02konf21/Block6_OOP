@@ -10,6 +10,10 @@ public class Dog extends Object {
         System.out.println("This is a dog!" + privateValue);
     }
 
+    public void bark() {
+        System.out.println("This dog sound like: wuff wuff");
+    }
+
     @Override
     public String toString() {
         return "Dog{" +
