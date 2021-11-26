@@ -2,7 +2,7 @@ package org.campus02.customers;
 
 import java.util.ArrayList;
 
-public class Customer {
+public class Customer extends Person {
     private int customerNumber;
     private ArrayList<Address> addresses; // = new ArrayList<>();
 
