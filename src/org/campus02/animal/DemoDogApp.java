@@ -9,6 +9,7 @@ public class DemoDogApp {
 //        d.doSomething2();
         System.out.println("ausgabe: " + d.toString());
         d.doSomething();
+        d.bark();
 
         System.out.println("beagle");
         Beagle b = new Beagle();
@@ -19,6 +20,7 @@ public class DemoDogApp {
         b.doSomething();
         b.doSomething2();
         System.out.println(b.toString());
+        b.bark();
 
     }
 }

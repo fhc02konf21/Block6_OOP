@@ -34,4 +34,13 @@ public class Beagle extends Dog{
 //                ", privateValue = " + privateValue +
                 '}';
     }
+
+    @Override
+    public void bark() {
+        super.bark(); // super kann auf Basisklasse zugreifen und von dort Methoden aufrufen
+        // this => Referenz auf das eigene Objekt
+        // super => Referenz auf das übergeordnete Klasse bzw. darüber
+        System.out.println("This beagle sound like: wau wau");
+
+    }
 }
