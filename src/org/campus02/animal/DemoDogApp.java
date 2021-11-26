@@ -7,7 +7,7 @@ public class DemoDogApp {
         d.eyeColor = "brown";
         d.weight = 2900;
 //        d.doSomething2();
-        System.out.println(d.toString());
+        System.out.println("ausgabe: " + d.toString());
         d.doSomething();
 
         System.out.println("beagle");
