@@ -6,7 +6,7 @@ public class DemoCustomerApp {
 
     public static void main(String[] args) {
 
-        Customer customer1 = new Customer(1);
+        Customer customer1 = new Customer(1, "Max", "Mustermann");
         Customer customer2 = new Customer(2, new ArrayList<>());
 
         customer1.setFirstname("Max");

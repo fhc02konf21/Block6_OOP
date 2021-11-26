@@ -6,7 +6,9 @@ public class Customer extends Person {
     private int customerNumber;
     private ArrayList<Address> addresses; // = new ArrayList<>();
 
-    public Customer(int customerNumber) {
+    public Customer(int customerNumber, String firstname, String lastname) {
+        super(firstname, lastname); // super(...parameters...) ruft den Konstruktor der Basisklasse auf
+
         this.customerNumber = customerNumber;
         addresses = new ArrayList<>();
         // ArrayList addresses muss entweder direkt bei Attribut, oder in (allen) Konstruktoren initialisiert werden
@@ -14,6 +16,8 @@ public class Customer extends Person {
 
     // auch Konstruktoren kann man überladen
     public Customer(int customerNumber, ArrayList<Address> addresses) {
+        super("", "");
+
         this.customerNumber = customerNumber;
         this.addresses = addresses;
     }
