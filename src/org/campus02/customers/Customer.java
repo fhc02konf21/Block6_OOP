@@ -12,6 +12,12 @@ public class Customer {
         // ArrayList addresses muss entweder direkt bei Attribut, oder in (allen) Konstruktoren initialisiert werden
     }
 
+    // auch Konstruktoren kann man überladen
+    public Customer(int customerNumber, ArrayList<Address> addresses) {
+        this.customerNumber = customerNumber;
+        this.addresses = addresses;
+    }
+
     public void addAddress(Address a) {
         addresses.add(a);
     }
