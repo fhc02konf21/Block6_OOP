@@ -9,11 +9,11 @@ public class DemoCustomerApp {
         Customer customer1 = new Customer(1);
         Customer customer2 = new Customer(2, new ArrayList<>());
 
-        customer1.firstname = "Max";
-        customer1.lastname = "Mustermann";
+        customer1.setFirstname("Max");
+        customer1.setLastname("Mustermann");
 
-        customer2.firstname = "Susi";
-        customer2.lastname = "Sorglos";
+        customer2.setFirstname("Susi");
+        customer2.setLastname("Sorglos");
 
         customer1.print();
         customer2.print();
